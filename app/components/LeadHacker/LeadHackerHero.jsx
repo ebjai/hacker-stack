@@ -25,7 +25,7 @@ export default function LeadHackerHero() {
       ...prev,
       "",
       `> snapshot.input :: ${prompt}`,
-      "⧗ running multi-agent diagnostic...`,
+      "⧗ running multi-agent diagnostic...",
     ]);
 
     try {
@@ -122,13 +122,13 @@ export default function LeadHackerHero() {
           <p className="mini-label">What it feels like</p>
           <p>
             You describe the mess once. Lead Hacker parses, maps the systems,
-            and spits out a prioritized 30‑day playbook, ready for your team or
+            and spits out a prioritized 30-day playbook, ready for your team or
             our agents to execute.
           </p>
           <div className="pill-row">
             <span className="pill">Diagnostic → Playbook</span>
-            <span className="pill">Multi‑agent reasoning</span>
-            <span className="pill">Battle‑tested prompts</span>
+            <span className="pill">Multi-agent reasoning</span>
+            <span className="pill">Battle-tested prompts</span>
           </div>
         </div>
 
@@ -136,7 +136,7 @@ export default function LeadHackerHero() {
           <p className="mini-label">For who</p>
           <p>
             Agency founders, media buyers, CROs, and sales leaders sitting on
-            chaotic attribution, leaky funnels, and under‑performing teams.
+            chaotic attribution, leaky funnels, and under-performing teams.
           </p>
           <div className="pill-row">
             <span className="pill">$1M+ agencies</span>
