@@ -1,15 +1,15 @@
-import LeadHackerHero from "../components/LeadHacker/LeadHackerHero";
-import LeadPipeline3D from "../components/LeadHacker/LeadPipeline3D";
-import Agents from "../components/LeadHacker/Agents";
-import NeonHologram from "../components/LeadHacker/NeonHologram";
+import LeadHackerHero from "./components/LeadHacker/LeadHackerHero.jsx";
+import LeadPipeline3D from "./components/LeadHacker/LeadPipeline3D.jsx";
+import Agents from "./components/LeadHacker/Agents.jsx";
+import NeonHologram from "./components/LeadHacker/NeonHologram.jsx";
 
-export default function HomePage() {
+export default function Page() {
   return (
-    <main className="relative mx-auto flex min-h-screen max-w-6xl flex-col gap-16 px-4 pb-24 pt-20 md:px-8">
+    <div className="min-h-screen">
       <LeadHackerHero />
       <LeadPipeline3D />
       <Agents />
       <NeonHologram />
-    </main>
+    </div>
   );
 }
