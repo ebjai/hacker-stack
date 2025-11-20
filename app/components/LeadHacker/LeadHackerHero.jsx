@@ -22,12 +22,11 @@ export default function LeadHackerHero() {
     setLoading(true);
 
     setLines((prev) => [
-  ...prev,
-  "",
-  `> snapshot.input :: ${prompt}`,
-  "⧗ running multi-agent diagnostic...",
-]);
-
+      ...prev,
+      "",
+      `> snapshot.input :: ${prompt}`,
+      "⧗ running multi-agent diagnostic...",
+    ]);
 
     try {
       const res = await fetch(API_URL, {
@@ -73,8 +72,8 @@ export default function LeadHackerHero() {
 
         <p className="mt-5 max-w-xl text-sm text-slate-300">
           Pipe the chaos of your lead flow straight into an AI console that
-          thinks like a 7-figure growth operator. Lead Hacker runs a
-          diagnostic, writes the action plan, and orchestrates your agents.
+          thinks like a 7-figure growth operator. Lead Hacker runs a diagnostic,
+          writes the action plan, and orchestrates your agents.
         </p>
 
         <div className="mt-6 console-shell">
