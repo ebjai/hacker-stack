@@ -22,11 +22,12 @@ export default function LeadHackerHero() {
     setLoading(true);
 
     setLines((prev) => [
-      ...prev,
-      "",
-      `> snapshot.input :: ${prompt}`,
-      "⧗ running multi-agent diagnostic...",
-    ]);
+  ...prev,
+  "",
+  `> snapshot.input :: ${prompt}`,
+  "⧗ running multi-agent diagnostic...",
+]);
+
 
     try {
       const res = await fetch(API_URL, {
